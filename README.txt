@@ -91,15 +91,3 @@ Matlab array        Python array
 Matlab other        Python None + warning
 =================== ========================================================
 
-Files
------
-
-* `pythoncall.c`_: Source code
-* `Makefile`_: Makefile
-* `h5load.m`_: Matlab function using ``pythoncall`` to interface with `Pytables`_ to load HDF5 files (better than Matlab's built-in functionality, as of R2006a)
-
-.. _`pythoncall.c`: pythoncall.c
-.. _`Makefile`: Makefile
-.. _`h5load.m`: h5load.m
-.. _`Pytables`: http://www.pytables.org/
-
